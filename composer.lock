@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a5c8f69538ccc14e0b6551542aeee99f",
-    "content-hash": "e0867f94a9e63cb5aa55cef2fcbe1a36",
+    "hash": "b8fb3cbfa2d84e5a715a8fb06623f4eb",
+    "content-hash": "bf20ac52b1dac29db6ecddf7d645b938",
     "packages": [
         {
             "name": "dg/adminer-custom",
@@ -25,6 +25,25 @@
             "notification-url": "https://packagist.org/downloads/",
             "description": "Customization for the best database management tool written in PHP, Adminer",
             "time": "2016-02-06 21:42:41"
+        },
+        {
+            "name": "easy4edit/article",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/easy4edit/Article.git",
+                "reference": "69f192e7ae92bf126839af3637ee58827f46f39e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/easy4edit/Article/zipball/69f192e7ae92bf126839af3637ee58827f46f39e",
+                "reference": "69f192e7ae92bf126839af3637ee58827f46f39e",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Article component",
+            "time": "2016-03-27 12:49:53"
         },
         {
             "name": "latte/latte",
@@ -1116,7 +1135,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "easy4edit/article": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
