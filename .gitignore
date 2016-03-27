@@ -1,6 +1,7 @@
 log/*
 temp/*
 vendor/*
+!vendor/easy4edit
 !.gitignore
 !.htaccess
 !web.config
