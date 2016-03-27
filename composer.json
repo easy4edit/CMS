@@ -33,7 +33,8 @@
 		"tracy/tracy": "~2.3.0",
 		"dg/adminer-custom": "~1.6",
 		"easy4edit/article": "dev-master",
-		"janmarek/webloader": "^2.5"
+		"janmarek/webloader": "^2.5",
+		"joseki/webloader-filters": "^1.1"
 	},
 	"require-dev": {
 		"nette/tester": "~1.3"
