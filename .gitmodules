@@ -1,0 +1,3 @@
+[submodule "vendor/easy4edit/article"]
+	path = vendor/easy4edit/article
+	url = git://github.com/easy4edit/Article.git
