@@ -19,9 +19,8 @@ class BasePresenter extends Nette\Application\UI\Presenter {
 
         $files = new WebLoader\FileCollection(WWW_DIR . '/css');
 
-        $files->addFiles(
-                Finder::findFiles('*.css', '*.less')->in(WWW_DIR . '/css')
-        );
+        $files->addFiles(Finder::findFiles('*.css', '*.less')->in(WWW_DIR . '/css'));
+        $files->addFiles([WWW_DIR . '/adminLTE/css/AdminLTE.css']);
 
         $files->addWatchFiles(Finder::findFiles('*.css', '*.less')->in(WWW_DIR . '/css'));
 
